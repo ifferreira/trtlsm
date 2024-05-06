@@ -1,0 +1,197 @@
+[0.204s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.204s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x720c44528f40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x720c44528a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x720c44528a00>>)
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.535s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/naruto/my_workspace'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extension 'colcon_meta'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extensions ['ros']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/desenhar) by extension 'ros'
+[0.566s] DEBUG:colcon.colcon_core.package_identification:Package 'src/desenhar' with type 'ros.ament_python' and name 'desenhar'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.572s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.572s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.630s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.635s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.725s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'cmake_args' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'cmake_target' from command line to 'None'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.727s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'cmake_clean_cache' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'cmake_clean_first' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'cmake_force_configure' from command line to 'False'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'ament_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'catkin_cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'desenhar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.728s] DEBUG:colcon.colcon_core.verb:Building package 'desenhar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naruto/my_workspace/build/desenhar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naruto/my_workspace/install/desenhar', 'merge_install': False, 'path': '/home/naruto/my_workspace/src/desenhar', 'symlink_install': False, 'test_result_base': None}
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.728s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.729s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naruto/my_workspace/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naruto/my_workspace/install/turtlesim', 'merge_install': False, 'path': '/home/naruto/my_workspace/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.729s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.731s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.731s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/naruto/my_workspace/src/desenhar' with build type 'ament_python'
+[0.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('desenhar', 'ament_prefix_path')
+[0.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naruto/my_workspace/install/desenhar/share/desenhar/hook/ament_prefix_path.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naruto/my_workspace/install/desenhar/share/desenhar/hook/ament_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naruto/my_workspace/install/desenhar/share/desenhar/hook/ament_prefix_path.sh'
+[0.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/naruto/my_workspace/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.745s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/naruto/my_workspace/src/ros_tutorials/turtlesim'
+[0.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.247s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/naruto/my_workspace/src/desenhar'
+[1.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naruto/my_workspace/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(cli) /usr/bin/cmake /home/naruto/my_workspace/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/naruto/my_workspace/install/turtlesim
+[1.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naruto/my_workspace/src/desenhar': PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cli) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data
+[2.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naruto/my_workspace/src/desenhar' returned '0': PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cli) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data
+[2.550s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar' for CMake module files
+[2.551s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar' for CMake config files
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar/lib'
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar/bin'
+[2.552s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar/lib/pkgconfig/desenhar.pc'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages'
+[2.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('desenhar', 'pythonpath')
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naruto/my_workspace/install/desenhar/share/desenhar/hook/pythonpath.ps1'
+[2.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naruto/my_workspace/install/desenhar/share/desenhar/hook/pythonpath.dsv'
+[2.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naruto/my_workspace/install/desenhar/share/desenhar/hook/pythonpath.sh'
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/desenhar/bin'
+[2.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(desenhar)
+[2.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/desenhar/share/desenhar/package.ps1'
+[2.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naruto/my_workspace/install/desenhar/share/desenhar/package.dsv'
+[2.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/desenhar/share/desenhar/package.sh'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/desenhar/share/desenhar/package.bash'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/desenhar/share/desenhar/package.zsh'
+[2.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naruto/my_workspace/install/desenhar/share/colcon-core/packages/desenhar)
+[14.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naruto/my_workspace/build/turtlesim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(cli) /usr/bin/cmake /home/naruto/my_workspace/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/naruto/my_workspace/install/turtlesim
+[14.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[14.335s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/turtlesim' for CMake module files
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/turtlesim' for CMake config files
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/turtlesim/bin'
+[14.336s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[14.337s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/turtlesim/lib/python3.10/site-packages'
+[14.337s] Level 1:colcon.colcon_core.environment:checking '/home/naruto/my_workspace/install/turtlesim/bin'
+[14.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/turtlesim/share/turtlesim/package.ps1'
+[14.339s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naruto/my_workspace/install/turtlesim/share/turtlesim/package.dsv'
+[14.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/turtlesim/share/turtlesim/package.sh'
+[14.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/turtlesim/share/turtlesim/package.bash'
+[14.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/naruto/my_workspace/install/turtlesim/share/turtlesim/package.zsh'
+[14.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naruto/my_workspace/install/turtlesim/share/colcon-core/packages/turtlesim)
+[14.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.352s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[14.353s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.364s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.386s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naruto/my_workspace/install/local_setup.ps1'
+[14.390s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naruto/my_workspace/install/_local_setup_util_ps1.py'
+[14.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naruto/my_workspace/install/setup.ps1'
+[14.400s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naruto/my_workspace/install/local_setup.sh'
+[14.411s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naruto/my_workspace/install/_local_setup_util_sh.py'
+[14.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naruto/my_workspace/install/setup.sh'
+[14.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naruto/my_workspace/install/local_setup.bash'
+[14.426s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naruto/my_workspace/install/setup.bash'
+[14.429s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naruto/my_workspace/install/local_setup.zsh'
+[14.430s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naruto/my_workspace/install/setup.zsh'

@@ -1,0 +1,21 @@
+[0.456s] Invoking command in '/home/naruto/my_workspace/src/desenhar': PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data
+[0.627s] running egg_info
+[0.628s] writing ../../build/desenhar/desenhar.egg-info/PKG-INFO
+[0.628s] writing dependency_links to ../../build/desenhar/desenhar.egg-info/dependency_links.txt
+[0.628s] writing entry points to ../../build/desenhar/desenhar.egg-info/entry_points.txt
+[0.628s] writing requirements to ../../build/desenhar/desenhar.egg-info/requires.txt
+[0.628s] writing top-level names to ../../build/desenhar/desenhar.egg-info/top_level.txt
+[0.629s] reading manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[0.630s] writing manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[0.630s] running build
+[0.630s] running build_py
+[0.630s] running install
+[0.630s] running install_lib
+[0.631s] running install_data
+[0.631s] running install_egg_info
+[0.633s] removing '/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info' (and everything under it)
+[0.633s] Copying ../../build/desenhar/desenhar.egg-info to /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info
+[0.633s] running install_scripts
+[0.648s] Installing desenho script to /home/naruto/my_workspace/install/desenhar/lib/desenhar
+[0.648s] writing list of installed files to '/home/naruto/my_workspace/build/desenhar/install.log'
+[0.668s] Invoked command in '/home/naruto/my_workspace/src/desenhar' returned '0': PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data

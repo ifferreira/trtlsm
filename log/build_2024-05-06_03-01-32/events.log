@@ -1,0 +1,237 @@
+[0.000000] (-) TimerEvent: {}
+[0.000349] (desenhar) JobQueued: {'identifier': 'desenhar', 'dependencies': OrderedDict()}
+[0.001444] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001517] (desenhar) JobStarted: {'identifier': 'desenhar'}
+[0.015008] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099650] (-) TimerEvent: {}
+[0.200088] (-) TimerEvent: {}
+[0.300603] (-) TimerEvent: {}
+[0.401193] (-) TimerEvent: {}
+[0.501707] (-) TimerEvent: {}
+[0.524994] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.526122] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/naruto/my_workspace/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/naruto/my_workspace/install/turtlesim'], 'cwd': '/home/naruto/my_workspace/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1000/default,4173,0'), ('USER', 'naruto'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/naruto'), ('OLDPWD', '/home/naruto/my_workspace/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/naruto/.nvm/versions/node/v20.12.2/bin'), ('NVM_INC', '/home/naruto/.nvm/versions/node/v20.12.2/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(cli) ${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2025'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/naruto/.nvm'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naruto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'naruto'), ('TERM', 'screen'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naruto/venvs/cli/bin:/home/naruto/.local/bin:/home/naruto/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin:/home/naruto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/uzumaki:@/tmp/.ICE-unix/1824,unix/uzumaki:/tmp/.ICE-unix/1824'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4308098d_5ca6_458c_ab42_020655f3b66a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(cli)'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.14D2M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'tmux'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('VIRTUAL_ENV', '/home/naruto/venvs/cli'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/naruto/my_workspace/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('TMUX_PANE', '%0'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.601847] (-) TimerEvent: {}
+[0.702395] (-) TimerEvent: {}
+[0.802989] (-) TimerEvent: {}
+[0.903518] (-) TimerEvent: {}
+[1.004031] (-) TimerEvent: {}
+[1.104433] (-) TimerEvent: {}
+[1.204863] (-) TimerEvent: {}
+[1.227686] (desenhar) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/desenhar', 'build', '--build-base', '/home/naruto/my_workspace/build/desenhar/build', 'install', '--record', '/home/naruto/my_workspace/build/desenhar/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/naruto/my_workspace/src/desenhar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'TMUX': '/tmp/tmux-1000/default,4173,0', 'USER': 'naruto', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/naruto', 'OLDPWD': '/home/naruto/my_workspace/src', 'TERM_PROGRAM_VERSION': '3.2a', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/naruto/.nvm/versions/node/v20.12.2/bin', 'NVM_INC': '/home/naruto/.nvm/versions/node/v20.12.2/include/node', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PS1': '(cli) ${debian_chroot:+($debian_chroot)}\\u@\\h:\\w\\$', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2025', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'NVM_DIR': '/home/naruto/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'naruto', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'naruto', 'TERM': 'screen', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/naruto/venvs/cli/bin:/home/naruto/.local/bin:/home/naruto/.nvm/versions/node/v20.12.2/bin:/opt/ros/humble/bin:/home/naruto/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/uzumaki:@/tmp/.ICE-unix/1824,unix/uzumaki:/tmp/.ICE-unix/1824', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4308098d_5ca6_458c_ab42_020655f3b66a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'VIRTUAL_ENV_PROMPT': '(cli)', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.14D2M2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'TERM_PROGRAM': 'tmux', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'VIRTUAL_ENV': '/home/naruto/venvs/cli', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/naruto/my_workspace/build/desenhar', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'TMUX_PANE': '%0'}, 'shell': False}
+[1.305069] (-) TimerEvent: {}
+[1.405574] (-) TimerEvent: {}
+[1.506085] (-) TimerEvent: {}
+[1.606547] (-) TimerEvent: {}
+[1.691306] (desenhar) StdoutLine: {'line': b'running egg_info\n'}
+[1.692359] (desenhar) StdoutLine: {'line': b'writing ../../build/desenhar/desenhar.egg-info/PKG-INFO\n'}
+[1.692609] (desenhar) StdoutLine: {'line': b'writing dependency_links to ../../build/desenhar/desenhar.egg-info/dependency_links.txt\n'}
+[1.692782] (desenhar) StdoutLine: {'line': b'writing entry points to ../../build/desenhar/desenhar.egg-info/entry_points.txt\n'}
+[1.692929] (desenhar) StdoutLine: {'line': b'writing requirements to ../../build/desenhar/desenhar.egg-info/requires.txt\n'}
+[1.693123] (desenhar) StdoutLine: {'line': b'writing top-level names to ../../build/desenhar/desenhar.egg-info/top_level.txt\n'}
+[1.696106] (desenhar) StdoutLine: {'line': b"reading manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'\n"}
+[1.697499] (desenhar) StdoutLine: {'line': b"writing manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'\n"}
+[1.706701] (-) TimerEvent: {}
+[1.715121] (desenhar) StdoutLine: {'line': b'running build\n'}
+[1.715427] (desenhar) StdoutLine: {'line': b'running build_py\n'}
+[1.715647] (desenhar) StdoutLine: {'line': b'running install\n'}
+[1.716558] (desenhar) StdoutLine: {'line': b'running install_lib\n'}
+[1.719170] (desenhar) StdoutLine: {'line': b'running install_data\n'}
+[1.719483] (desenhar) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.722751] (desenhar) StdoutLine: {'line': b"removing '/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.723184] (desenhar) StdoutLine: {'line': b'Copying ../../build/desenhar/desenhar.egg-info to /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info\n'}
+[1.724450] (desenhar) StdoutLine: {'line': b'running install_scripts\n'}
+[1.765944] (desenhar) StdoutLine: {'line': b"writing list of installed files to '/home/naruto/my_workspace/build/desenhar/install.log'\n"}
+[1.806986] (-) TimerEvent: {}
+[1.813633] (desenhar) CommandEnded: {'returncode': 0}
+[1.833919] (desenhar) JobEnded: {'identifier': 'desenhar', 'rc': 0}
+[1.907213] (-) TimerEvent: {}
+[1.986202] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.007439] (-) TimerEvent: {}
+[2.107970] (-) TimerEvent: {}
+[2.208495] (-) TimerEvent: {}
+[2.308948] (-) TimerEvent: {}
+[2.409423] (-) TimerEvent: {}
+[2.509851] (-) TimerEvent: {}
+[2.610285] (-) TimerEvent: {}
+[2.710735] (-) TimerEvent: {}
+[2.811282] (-) TimerEvent: {}
+[2.911880] (-) TimerEvent: {}
+[3.012361] (-) TimerEvent: {}
+[3.112824] (-) TimerEvent: {}
+[3.213282] (-) TimerEvent: {}
+[3.302558] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.313424] (-) TimerEvent: {}
+[3.413870] (-) TimerEvent: {}
+[3.494724] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.514001] (-) TimerEvent: {}
+[3.614471] (-) TimerEvent: {}
+[3.714898] (-) TimerEvent: {}
+[3.788691] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.803914] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.815071] (-) TimerEvent: {}
+[3.815547] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.828339] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.879790] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.915234] (-) TimerEvent: {}
+[4.015757] (-) TimerEvent: {}
+[4.105053] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.115906] (-) TimerEvent: {}
+[4.121549] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.122099] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.122929] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.162584] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.216022] (-) TimerEvent: {}
+[4.316421] (-) TimerEvent: {}
+[4.416911] (-) TimerEvent: {}
+[4.500925] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /home/naruto/venvs/cli/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.517073] (-) TimerEvent: {}
+[4.617527] (-) TimerEvent: {}
+[4.718058] (-) TimerEvent: {}
+[4.818579] (-) TimerEvent: {}
+[4.919140] (-) TimerEvent: {}
+[5.019705] (-) TimerEvent: {}
+[5.120191] (-) TimerEvent: {}
+[5.220648] (-) TimerEvent: {}
+[5.321149] (-) TimerEvent: {}
+[5.421701] (-) TimerEvent: {}
+[5.459442] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[5.509998] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[5.521894] (-) TimerEvent: {}
+[5.622413] (-) TimerEvent: {}
+[5.722868] (-) TimerEvent: {}
+[5.823339] (-) TimerEvent: {}
+[5.924069] (-) TimerEvent: {}
+[6.024545] (-) TimerEvent: {}
+[6.125039] (-) TimerEvent: {}
+[6.225606] (-) TimerEvent: {}
+[6.287732] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.325757] (-) TimerEvent: {}
+[6.348515] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.425954] (-) TimerEvent: {}
+[6.523224] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.526029] (-) TimerEvent: {}
+[6.626396] (-) TimerEvent: {}
+[6.726847] (-) TimerEvent: {}
+[6.736836] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.826994] (-) TimerEvent: {}
+[6.927523] (-) TimerEvent: {}
+[7.028069] (-) TimerEvent: {}
+[7.057863] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.128262] (-) TimerEvent: {}
+[7.228805] (-) TimerEvent: {}
+[7.329387] (-) TimerEvent: {}
+[7.429940] (-) TimerEvent: {}
+[7.530438] (-) TimerEvent: {}
+[7.630997] (-) TimerEvent: {}
+[7.731521] (-) TimerEvent: {}
+[7.831976] (-) TimerEvent: {}
+[7.932427] (-) TimerEvent: {}
+[8.032956] (-) TimerEvent: {}
+[8.133406] (-) TimerEvent: {}
+[8.233857] (-) TimerEvent: {}
+[8.266278] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.334019] (-) TimerEvent: {}
+[8.434521] (-) TimerEvent: {}
+[8.534953] (-) TimerEvent: {}
+[8.635385] (-) TimerEvent: {}
+[8.735828] (-) TimerEvent: {}
+[8.836307] (-) TimerEvent: {}
+[8.936702] (-) TimerEvent: {}
+[9.037110] (-) TimerEvent: {}
+[9.080539] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.113090] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.137323] (-) TimerEvent: {}
+[9.237760] (-) TimerEvent: {}
+[9.338263] (-) TimerEvent: {}
+[9.438814] (-) TimerEvent: {}
+[9.539392] (-) TimerEvent: {}
+[9.639981] (-) TimerEvent: {}
+[9.740442] (-) TimerEvent: {}
+[9.840931] (-) TimerEvent: {}
+[9.941432] (-) TimerEvent: {}
+[9.967511] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.041583] (-) TimerEvent: {}
+[10.106796] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.141771] (-) TimerEvent: {}
+[10.214740] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.241906] (-) TimerEvent: {}
+[10.342329] (-) TimerEvent: {}
+[10.405650] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.442493] (-) TimerEvent: {}
+[10.542892] (-) TimerEvent: {}
+[10.643384] (-) TimerEvent: {}
+[10.702539] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.702944] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.743606] (-) TimerEvent: {}
+[10.844090] (-) TimerEvent: {}
+[10.864846] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.867146] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.944299] (-) TimerEvent: {}
+[11.045034] (-) TimerEvent: {}
+[11.145794] (-) TimerEvent: {}
+[11.246369] (-) TimerEvent: {}
+[11.346875] (-) TimerEvent: {}
+[11.447463] (-) TimerEvent: {}
+[11.547991] (-) TimerEvent: {}
+[11.648531] (-) TimerEvent: {}
+[11.748982] (-) TimerEvent: {}
+[11.821432] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[11.849242] (-) TimerEvent: {}
+[11.949754] (-) TimerEvent: {}
+[12.050208] (-) TimerEvent: {}
+[12.150691] (-) TimerEvent: {}
+[12.251328] (-) TimerEvent: {}
+[12.352009] (-) TimerEvent: {}
+[12.452553] (-) TimerEvent: {}
+[12.553125] (-) TimerEvent: {}
+[12.653655] (-) TimerEvent: {}
+[12.754229] (-) TimerEvent: {}
+[12.797417] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[12.854369] (-) TimerEvent: {}
+[12.936936] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[12.954545] (-) TimerEvent: {}
+[13.055059] (-) TimerEvent: {}
+[13.155541] (-) TimerEvent: {}
+[13.256073] (-) TimerEvent: {}
+[13.356534] (-) TimerEvent: {}
+[13.457999] (-) TimerEvent: {}
+[13.549468] (turtlesim) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[13.550076] (turtlesim) StderrLine: {'line': b'  execute_process(/home/naruto/venvs/cli/bin/python3 -m rosidl_adapter\n'}
+[13.550247] (turtlesim) StderrLine: {'line': b'  --package-name turtlesim --arguments-file\n'}
+[13.550378] (turtlesim) StderrLine: {'line': b'  /home/naruto/my_workspace/build/turtlesim/rosidl_adapter__arguments__turtlesim.json\n'}
+[13.550498] (turtlesim) StderrLine: {'line': b'  --output-dir\n'}
+[13.550613] (turtlesim) StderrLine: {'line': b'  /home/naruto/my_workspace/build/turtlesim/rosidl_adapter/turtlesim\n'}
+[13.550730] (turtlesim) StderrLine: {'line': b'  --output-file\n'}
+[13.550842] (turtlesim) StderrLine: {'line': b'  /home/naruto/my_workspace/build/turtlesim/rosidl_adapter/turtlesim.idls)\n'}
+[13.550955] (turtlesim) StderrLine: {'line': b'  returned error code 1:\n'}
+[13.551075] (turtlesim) StderrLine: {'line': b'\n'}
+[13.551203] (turtlesim) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[13.551319] (turtlesim) StderrLine: {'line': b'\n'}
+[13.551429] (turtlesim) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[13.551541] (turtlesim) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[13.551656] (turtlesim) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[13.551818] (turtlesim) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[13.551980] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[13.552104] (turtlesim) StderrLine: {'line': b'      sys.exit(main())\n'}
+[13.552224] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[13.552354] (turtlesim) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[13.552488] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 28, in convert_to_idl\n'}
+[13.552651] (turtlesim) StderrLine: {'line': b'      from rosidl_adapter.action import convert_action_to_idl\n'}
+[13.552831] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/action/__init__.py", line 16, in <module>\n'}
+[13.553002] (turtlesim) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[13.553140] (turtlesim) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[13.553264] (turtlesim) StderrLine: {'line': b'      import em\n'}
+[13.553383] (turtlesim) StderrLine: {'line': b'\n'}
+[13.553494] (turtlesim) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[13.553616] (turtlesim) StderrLine: {'line': b'\n'}
+[13.553730] (turtlesim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.553987] (turtlesim) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[13.554110] (turtlesim) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[13.554227] (turtlesim) StderrLine: {'line': b'\n'}
+[13.554342] (turtlesim) StderrLine: {'line': b'\x1b[0m\n'}
+[13.554456] (turtlesim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[13.554595] (turtlesim) StdoutLine: {'line': b'See also "/home/naruto/my_workspace/build/turtlesim/CMakeFiles/CMakeOutput.log".\n'}
+[13.558168] (-) TimerEvent: {}
+[13.574878] (turtlesim) CommandEnded: {'returncode': 1}
+[13.611014] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 1}
+[13.622096] (-) EventReactorShutdown: {}

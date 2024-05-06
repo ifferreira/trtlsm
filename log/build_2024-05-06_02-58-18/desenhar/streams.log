@@ -1,0 +1,36 @@
+[3.660s] Invoking command in '/home/naruto/my_workspace/src/desenhar': PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cli) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data
+[4.167s] running egg_info
+[4.168s] creating ../../build/desenhar/desenhar.egg-info
+[4.168s] writing ../../build/desenhar/desenhar.egg-info/PKG-INFO
+[4.168s] writing dependency_links to ../../build/desenhar/desenhar.egg-info/dependency_links.txt
+[4.169s] writing entry points to ../../build/desenhar/desenhar.egg-info/entry_points.txt
+[4.169s] writing requirements to ../../build/desenhar/desenhar.egg-info/requires.txt
+[4.169s] writing top-level names to ../../build/desenhar/desenhar.egg-info/top_level.txt
+[4.169s] writing manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[4.172s] reading manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[4.174s] writing manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[4.174s] running build
+[4.174s] running build_py
+[4.174s] creating /home/naruto/my_workspace/build/desenhar/build
+[4.174s] creating /home/naruto/my_workspace/build/desenhar/build/lib
+[4.175s] creating /home/naruto/my_workspace/build/desenhar/build/lib/desenhar
+[4.175s] copying desenhar/__init__.py -> /home/naruto/my_workspace/build/desenhar/build/lib/desenhar
+[4.175s] copying desenhar/desenhar.py -> /home/naruto/my_workspace/build/desenhar/build/lib/desenhar
+[4.175s] running install
+[4.175s] running install_lib
+[4.177s] creating /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar
+[4.177s] copying /home/naruto/my_workspace/build/desenhar/build/lib/desenhar/__init__.py -> /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar
+[4.177s] copying /home/naruto/my_workspace/build/desenhar/build/lib/desenhar/desenhar.py -> /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar
+[4.178s] byte-compiling /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar/__init__.py to __init__.cpython-310.pyc
+[4.178s] byte-compiling /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar/desenhar.py to desenhar.cpython-310.pyc
+[4.180s] running install_data
+[4.180s] creating /home/naruto/my_workspace/install/desenhar/share/ament_index
+[4.181s] creating /home/naruto/my_workspace/install/desenhar/share/ament_index/resource_index
+[4.181s] creating /home/naruto/my_workspace/install/desenhar/share/ament_index/resource_index/packages
+[4.181s] copying resource/desenhar -> /home/naruto/my_workspace/install/desenhar/share/ament_index/resource_index/packages
+[4.181s] copying package.xml -> /home/naruto/my_workspace/install/desenhar/share/desenhar
+[4.181s] running install_egg_info
+[4.184s] Copying ../../build/desenhar/desenhar.egg-info to /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info
+[4.185s] running install_scripts
+[4.224s] writing list of installed files to '/home/naruto/my_workspace/build/desenhar/install.log'
+[4.272s] Invoked command in '/home/naruto/my_workspace/src/desenhar' returned '0': PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cli) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data

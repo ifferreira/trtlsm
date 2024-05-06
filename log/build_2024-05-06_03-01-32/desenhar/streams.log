@@ -1,0 +1,20 @@
+[1.229s] Invoking command in '/home/naruto/my_workspace/src/desenhar': PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cli) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data
+[1.690s] running egg_info
+[1.691s] writing ../../build/desenhar/desenhar.egg-info/PKG-INFO
+[1.691s] writing dependency_links to ../../build/desenhar/desenhar.egg-info/dependency_links.txt
+[1.691s] writing entry points to ../../build/desenhar/desenhar.egg-info/entry_points.txt
+[1.691s] writing requirements to ../../build/desenhar/desenhar.egg-info/requires.txt
+[1.692s] writing top-level names to ../../build/desenhar/desenhar.egg-info/top_level.txt
+[1.695s] reading manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[1.696s] writing manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+[1.714s] running build
+[1.714s] running build_py
+[1.714s] running install
+[1.715s] running install_lib
+[1.718s] running install_data
+[1.718s] running install_egg_info
+[1.721s] removing '/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info' (and everything under it)
+[1.722s] Copying ../../build/desenhar/desenhar.egg-info to /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info
+[1.723s] running install_scripts
+[1.765s] writing list of installed files to '/home/naruto/my_workspace/build/desenhar/install.log'
+[1.813s] Invoked command in '/home/naruto/my_workspace/src/desenhar' returned '0': PS1=(cli) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ PYTHONPATH=/home/naruto/my_workspace/build/desenhar/prefix_override:/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(cli) /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/desenhar build --build-base /home/naruto/my_workspace/build/desenhar/build install --record /home/naruto/my_workspace/build/desenhar/install.log --single-version-externally-managed install_data

@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/desenhar/desenhar.egg-info/PKG-INFO
+writing dependency_links to ../../build/desenhar/desenhar.egg-info/dependency_links.txt
+writing entry points to ../../build/desenhar/desenhar.egg-info/entry_points.txt
+writing requirements to ../../build/desenhar/desenhar.egg-info/requires.txt
+writing top-level names to ../../build/desenhar/desenhar.egg-info/top_level.txt
+reading manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+writing manifest file '../../build/desenhar/desenhar.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/desenhar/desenhar.egg-info to /home/naruto/my_workspace/install/desenhar/lib/python3.10/site-packages/desenhar-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/naruto/my_workspace/build/desenhar/install.log'
